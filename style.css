@@ -20,13 +20,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-h1 {
+/* h1 {
   font-weight: 500;
-  color: white;
+  color: white; */
 }
-h2 {
   font-weight: 400;
   color: white;
+/* h2 { */
 }
 
 .parallax h1{
@@ -52,7 +52,7 @@ ul{
   list-style-type: none;
   width: 100%;     
   display: table; 
-  margin: 0;
+  margin: 5px;
   padding: 0;
   overflow: hidden;
   background-color: gray;
@@ -99,4 +99,34 @@ footer {
   overflow: hidden;
   text-align:left
   font-weight: 500;
+}
+
+/////////////// Sign Up
+
+.cupid {
+  width: 500px;
+  height: 200px;
+}
+
+lax{
+  background-image: url("https://raw.githubusercontent.com/TomKnn/HappilyEverAfter/main/cupid.jpg");
+  padding: 0px;
+  margin: 0px;
+  /*set a specific height*/
+  height:100%;
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.lax h3{
+  padding: 10px;
+  font-size: 100px;
+  color:white;
+  height: 26px;
+  position:absolute;
+  top: 5%;
+  font-family: arial;
+  font-weight: 700;
 }
