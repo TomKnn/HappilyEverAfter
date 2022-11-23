@@ -1,49 +1,102 @@
 html{
   font-family: Arial;
 }
+
+// https://cssslider.com/webdesign/top-53-html-header-templates-compilation-for-2018-free-download-2642.html
+
 body {
+  background-color:#EFF5F5 ;
   margin: 0;
 }
-.sample-header {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-  background-image: url("http://webmadewell.com/wp-content/uploads/2018/01/img-bg-sample-parallax-header.jpg");
+.parallax{
+  background-image: url("https://raw.githubusercontent.com/TomKnn/HappilyEverAfter/main/love%20achtergrond.jpg");
+  padding: 0px;
+  margin: 0px;
+  /*set a specific height*/
+  height:100%;
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
   background-position: center;
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
 }
-h1{
-  color: #850E35;
-  font-family: arial;
-  text-align: center;
+h1 {
+  font-weight: 500;
+  color: white;
 }
-h2{
-  color: #850E35;
+h2 {
+  font-weight: 400;
+  color: white;
+}
+
+.parallax h1{
+  padding: 10px;
+  font-size: 100px;
+  color:white;
+  height: 26px;
+  position:absolute;
+  top: 5%;
   font-family: arial;
-  text-align: center;
+  font-weight: 700;
+}
+.parallax h2{
+  padding-top: 470px;
+  padding-left: 700px;
+  color:white;
+  text-align: left;
+  font-family: arial;
+  font-size: 20px;
+/*   background: lightgray; */
 }
 ul{
   list-style-type: none;
+  width: 100%;     
+  display: table; 
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: gray;
+  opacity: 70%;
 }
-li {
-  float: left;
+nav {
+  font-family: Arial Bold, sans-serif;
+  text-align: center;
+  font-weight: 550;
 }
+
 li a {
-  display: inline-block;
-  justify-content: space-evenly;
+  float: left;
+  margin-left:200px;
+  display: table-cell;
   color: white;
   text-align: center;
   padding: 16px;
   text-decoration: none;
 }
-article{
-  padding: 20px;
-  flex-direction: row;
-  display:block;
+
+article {
+  background-color:lightgray;
+  opacity: 80%;
+  color: #303336;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin: 200px 30px 30px 35px;
+  padding: 40px;
+  display: inline-block;
+  justify-content:space-evenly;
+  width: 350px;
+  font-size: 30px
+/*   box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, .2); */
+}
+// https://www.w3schools.com/css/css3_shadows.asp
+footer {
+  background-color: gray;
+  opacity: 70%;
+  color: lightgray;
+  font-family: Arial Bold, sans-serif;
+  margin: 0;
+  padding: 10px 10px;
+  overflow: hidden;
+  text-align:left
+  font-weight: 500;
 }
