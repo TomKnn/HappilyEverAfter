@@ -20,14 +20,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/* h1 {
-  font-weight: 500;
-  color: white; */
-}
-  font-weight: 400;
-  color: white;
-/* h2 { */
-}
+
 
 .parallax h1{
   padding: 10px;
@@ -39,13 +32,16 @@ body {
   font-family: arial;
   font-weight: 700;
 }
-.parallax h2{
+
+.parallax h2 {
   padding-top: 470px;
-  padding-left: 700px;
+  padding-left: 660px;
+  padding-bottom: 10px;
+  margin: 10px;
   color:white;
   text-align: left;
   font-family: arial;
-  font-size: 20px;
+  font-size: 22px;
 /*   background: lightgray; */
 }
 ul{
@@ -53,15 +49,17 @@ ul{
   width: 100%;     
   display: table; 
   margin: 5px;
-  padding: 0;
+  padding: 0px 40px;
   overflow: hidden;
   background-color: gray;
   opacity: 70%;
 }
 nav {
   font-family: Arial Bold, sans-serif;
+  font-size: 20px;
   text-align: center;
-  font-weight: 550;
+  font-weight: 600;
+  padding: 0px 40px;
 }
 
 li a {
@@ -80,8 +78,8 @@ article {
   color: #303336;
   border-radius: 10px;
   margin-top: 100px;
-  margin: 200px 30px 30px 35px;
-  padding: 40px;
+  margin: 100px 30px 0px 35px;
+  padding: 40px 40px;
   display: inline-block;
   justify-content:space-evenly;
   width: 350px;
@@ -89,31 +87,30 @@ article {
 /*   box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, .2); */
 }
 // https://www.w3schools.com/css/css3_shadows.asp
-footer {
-  background-color: gray;
-  opacity: 70%;
-  color: lightgray;
-  font-family: Arial Bold, sans-serif;
-  margin: 0;
-  padding: 10px 10px;
-  overflow: hidden;
-  text-align:left
-  font-weight: 500;
-}
 
-/////////////// Sign Up
+
+footer {
+background-color: gray;
+  opacity: 70%;
+  font-size: 30px;
+  font-family: Arial Bold, sans-serif;
+/*   margin: 50px;
+  padding: 10px;
+ overflow: hidden;
+  text-align:left
+z-index: 2; */
+}
 
 .cupid {
   width: 500px;
   height: 200px;
 }
-
 lax{
   background-image: url("https://raw.githubusercontent.com/TomKnn/HappilyEverAfter/main/cupid.jpg");
   padding: 0px;
   margin: 0px;
   /*set a specific height*/
-  height:100%;
+  height:100vh;
     /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
@@ -129,4 +126,94 @@ lax{
   top: 5%;
   font-family: arial;
   font-weight: 700;
+}
+
+.form_container{
+  display: column;
+/*   border-block-color: lightgray; */
+  width: 100px;
+  background-color: lightgray;
+  color: white;;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin: 100px 30px 0px 35px;
+  padding: 40px 40px;
+/*   display: inline-block;
+  justify-content:space-evenly; */
+/*   width: 350px; */
+  font-size: 30px
+}
+
+.rallax{
+  background-image: url("https://raw.githubusercontent.com/TomKnn/HappilyEverAfter/main/pexels-vera-arsic-984917.jpg");
+  padding: 0px;
+  margin: 0px;
+  /*set a specific height*/
+  height:100%;
+    /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.rallax h1{
+  padding-top: 320px;
+  margin: 30px;
+  font-size: 100px;
+  color:white;
+  height: 26px;
+  position:absolute;
+  top: 5%;
+  font-family: arial;
+  font-weight: 700;
+}
+
+.rallax h2 {
+  padding-top: 470px;
+  padding-left: 660px;
+  padding-bottom: 10px;
+  margin: 10px;
+  color:white;
+  text-align: left;
+  font-family: arial;
+  font-size: 22px;
+/*   background: lightgray; */
+}
+
+.review_container{
+  display: column;
+/*   margin:40px;
+  padding: 40px 40px;
+  background-color: lightgray;
+  color: white;; */
+}
+
+.review{
+  border-block-color: lightgray;
+  width: 900px;
+  background-color: lightgray;
+  color: white;;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin: 100px 30px 0px 35px;
+  padding: 40px 40px;
+/*   display: inline-block;
+  justify-content:space-evenly; */
+/*   width: 350px; */
+  font-size: 30px
+}
+name{
+  border-block-color: lightblue;
+  width: 100px;
+  background-color: lightblue;
+  color: white;;
+  border-radius: 10px;
+  margin-top: 100px;
+  margin: 100px 30px 0px 35px;
+  padding: 40px 40px;
+/*   display: inline-block;
+  justify-content:space-evenly; */
+/*   width: 350px; */
+  font-size: 30px
 }
